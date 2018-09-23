@@ -1,0 +1,23 @@
+proected gaurd 13/14
+carbon
+error 16
+17
+belongsTo
+type hinting, static, eloquent
+middleware
+
+
+php artisan make:migration create_tasks_table
+php artisan make:migration create_tasks_table --create=tasks
+composer dump-autoload
+php artisan migrate
+php artisan migrate:refresh
+rm -rf blog
+php artisan -v
+php -v
+
+php artisan make:model Task
+php artisan tinker
+App\Task::all()
+App\Task::where('id', '>', '1')->get()
+App\Task::plunk('body')
